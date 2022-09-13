@@ -1,0 +1,99 @@
+* {
+    background-color: #040b16;
+    color: aliceblue;
+}
+
+#cityname {
+    outline: none;
+    border: none;
+    color: #9a9a9a;
+    border-bottom: 2px solid white;
+    width: 150px;
+    padding: 5px;
+    font-size: 15px;
+}
+
+#cityname:focus {
+    border: none;
+    border-bottom: 2px solid rgb(181, 171, 171);
+}
+
+button {
+    margin-left: 8px;
+    background-color: #040b16;
+    color: white;
+    padding: 5px;
+    border-radius: 25px;
+    border: 2px solid white;
+}
+
+button:hover {
+    background-color: white;
+    color: #040b16;
+    padding: 5.5px;
+}
+
+ ::placeholder {
+    font-size: 15px;
+}
+
+#srch {
+    margin-top: 50px;
+    margin-left: 40px;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 50px;
+    color: aquamarine;
+}
+
+#data_show {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    margin-top: 80px;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+p {
+    font-size: 20px;
+}
+
+#data_show>div>div:nth-child(1)>p:nth-child(1) {
+    color: rgb(241, 248, 46);
+    font-size: 30px;
+    margin-right: 20px;
+}
+
+#data7_days {
+    margin: auto;
+    margin-top: 40px;
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    padding: 4px;
+    column-gap: 10px;
+}
+
+#data7_days>div {
+    border: 1px solid rgb(249, 246, 246);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+}
+
+#data7_days>div>p {
+    margin-top: -5px;
+}
+
+#data7_days>div>p:nth-child(1) {
+    margin-top: 15px;
+}
+
+#data7_days>div>p:nth-child(3) {
+    margin-top: 0px;
+}
